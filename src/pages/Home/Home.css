@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+#back {
+    background: url('https://muhammadusman.unialsolutions.com/assets/img/SLider.jpg') top right no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#typo {
+    text-align: center;
+    opacity: 1;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+
+span {
+    font-size: 40px;
+    font-family: "f031";
+}
+
+#social {
+    margin: 40px 5px 5px 5px;
+}
+
+.Icon {
+    margin: 5px 20px 5px 0px;
+}
+.typedContainer {
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    text-align: center;
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+  }
+@media screen and (max-width: 920px) {
+    /* #typo {
+        position: absolute;
+        top: 15rem;
+        left: 4rem;
+        text-align: center;
+        margin: auto;
+        opacity: 1;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+    } */
+    span {
+        font-size: 25px;
+        font-family: "f031";
+    }
+    #social {
+        margin: 15px 5px 5px 5px;
+    } 
+    .Icon {
+        margin: 5px 15px 5px 0px;
+    }
+    .typedContainer {
+        transform: translate(-50%,-50%);
+        z-index: 1;
+        text-align: center;
+        width: 100vw;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+      }
+}
+
+@media screen and (max-width: 730px) {
+    #typo {
+        position: absolute;
+        top: 15rem;
+        left: 1rem;
+        text-align: center;
+        margin: auto;
+        opacity: 1;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+    }
+    span {
+        font-size: 20px ;
+        font-family: "f031";
+    }
+    #social {
+        margin: 5px 5px 5px 5px;
+    } 
+    .Icon {
+        margin: 5px 10px 5px 0px;
+    }
+    .typedContainer {
+        transform: translate(-50%,-50%);
+        z-index: 1;
+        text-align: center;
+        width: 100vw;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+      }
+} 
+@media screen and (max-width: 450px) {
+
+.typedContainer {
+        transform: translate(-50%,-50%);
+        z-index: 1;
+        text-align: center;
+        width: 100vw;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+      }
+}
